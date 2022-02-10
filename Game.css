@@ -1,0 +1,30 @@
+body{
+    background-image: url(Supermario.png);
+    background-size: cover;
+    min-height: 100vh;
+  }
+  
+  .Supermario{
+    position:absolute;
+    width: 100px;
+    left:20%;
+    top:30%;
+    /*
+      infinite -> LOOP 
+      Forawrds -> It stops at the end
+    */
+    animation: MarioAnimation 3s infinite;
+  }
+  
+  .Supermario img{
+    width: 110%;
+  }
+  
+  @keyframes MarioAnimation{
+    0%{
+    left: 20%;
+    
+
+
+    }
+  }
